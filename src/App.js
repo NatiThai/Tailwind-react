@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Switch>
       <Route path="/">
-          <LandingPage>
+          <LandingPage heading="Hello world">
             <HomePage />
           </LandingPage>
       </Route>

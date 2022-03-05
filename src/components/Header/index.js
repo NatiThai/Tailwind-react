@@ -19,8 +19,8 @@ const Header = ({
                  <img src ={Logo} className="w-full" />
             </div>
 
-            <div onClick={onClick} className={`md:hidden uppercase`}>
-                Menu
+            <div onClick={onClick} className={`md:hidden uppercase cursor-pointer `} >
+                 <i class="fa fa-bars"></i> MENU
             </div>
 
             <nav

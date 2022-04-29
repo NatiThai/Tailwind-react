@@ -1,12 +1,11 @@
 import React from "react";
+import Cards from "../../components/Card";
 
 const HomePage = ({
     ...otherProps
 }) => {
     return (
-        <div>
-            
-        </div>
+        <Cards />
     );
 };
 

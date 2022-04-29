@@ -29,10 +29,10 @@ const LandingPage = ({
             </div>
 
             <div className="w-full max-w-6xl mx-auto ">
-                    {otherProps.childen}
+                   {otherProps.children}
             </div>
-
-            <Footer />
+              <Footer />
+           
         </div>
     );
 };
